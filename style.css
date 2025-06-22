@@ -40,14 +40,14 @@ body{
 }
 
 .container a{
-    color: #333;
+    color: #333333;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
-    background-color: #087528;
+    background-color: #084075;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
