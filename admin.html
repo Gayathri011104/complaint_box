@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stitch Design</title>
+  <link rel="icon" href="data:image/x-icon;base64," />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body class="bg-gray-50 font-['Plus_Jakarta_Sans','Noto_Sans',sans-serif] min-h-screen flex flex-col overflow-x-hidden">
+  <div class="flex h-full grow">
+    <aside class="w-80 p-4 flex flex-col justify-between min-h-[700px] bg-gray-50">
+      <div class="space-y-4">
+        <div>
+          <h1 class="text-base font-medium text-[#101518]">Student Support Hub</h1>
+          <p class="text-sm text-[#5c748a]">Admin</p>
+        </div>
+        <nav class="space-y-2">
+          <!-- Navigation item template -->
+          <div class="flex items-center gap-3 px-3 py-2">
+            <svg width="24" height="24" fill="currentColor" class="text-[#101518]"><path d="M218.83,103.77l-80-75.48a1.14,1.14,..."/></svg>
+            <p class="text-sm font-medium text-[#101518]">Dashboard</p>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2">
+            <svg width="24" height="24" fill="currentColor" class="text-[#101518]"><path d="M208,32H48A16,16,0,..."/></svg>
+            <p class="text-sm font-medium text-[#101518]">Submissions</p>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#eaedf1]">
+            <svg width="24" height="24" fill="currentColor" class="text-[#101518]"><path d="M128,24A104,104,..."/></svg>
+            <p class="text-sm font-medium text-[#101518]">Responses</p>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2">
+            <svg width="24" height="24" fill="currentColor" class="text-[#101518]"><path d="M216,40H136V24,..."/></svg>
+            <p class="text-sm font-medium text-[#101518]">Analytics</p>
+          </div>
+          <div class="flex items-center gap-3 px-3 py-2">
+            <svg width="24" height="24" fill="currentColor" class="text-[#101518]"><path d="M128,80a48,..."/></svg>
+            <p class="text-sm font-medium text-[#101518]">Settings</p>
+          </div>
+        </nav>
+      </div>
+    </aside>
+
+    <main class="flex-1 max-w-[960px] p-4">
+      <header class="mb-4 space-y-1">
+        <h2 class="text-[32px] font-bold text-[#101518] leading-tight">Respond to Submission</h2>
+        <p class="text-sm text-[#5c748a]">Compose and send your response to the student.</p>
+      </header>
+
+      <form class="space-y-4 max-w-[480px]">
+        <textarea placeholder="Type your response here..." class="w-full min-h-36 p-4 rounded-xl border border-[#d4dce2] text-base text-[#101518] bg-gray-50 placeholder:text-[#5c748a] resize-none"></textarea>
+        <div class="flex justify-end">
+          <button type="submit" class="h-10 px-4 min-w-[84px] rounded-xl bg-[#dce8f3] text-sm font-bold text-[#101518]">Submit Response</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
